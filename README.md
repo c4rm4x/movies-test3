@@ -2,7 +2,8 @@
 
 ## Overall solution
 
-The solution uses MediatR, FluentValidation all running in .Net Core + EF Core
+The solution uses MediatR and FluentValidation all running in .Net Core + EF Core.
+
 A localDB will be created, called Movies, once the migrations/seed run. To run the migration, use Update-Database command using Movies.Persistence project as the target one.
 
 Some unit tests have being written to test validations and MediatR handlers. The other handlers were not tested, but their tests looke like similar to the one created for SearchQueryHandler.
